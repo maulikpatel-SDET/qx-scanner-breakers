@@ -1,0 +1,5 @@
+# R6-20 Jinja2 template (.j2): algorithm chosen by a template variable with an RSA default.
+tls:
+  key_algorithm: "{{ key_alg | default('RSA') }}"
+  key_size: {{ key_size | default(2048) }}
+  min_version: "{{ tls_min | default('TLSv1') }}"

@@ -1,0 +1,3 @@
+# R6-19 Looks like a Dockerfile by name suffix but is real openssl key generation in a shell-style file.
+RUN openssl genrsa -out legacy.key 2048
+RUN openssl dsaparam -genkey 1024 -out dsa.key

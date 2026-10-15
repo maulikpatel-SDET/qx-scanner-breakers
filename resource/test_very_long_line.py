@@ -1,0 +1,3 @@
+"""R6-15 One ~2MB line of noise then a real call."""
+from cryptography.hazmat.primitives.asymmetric import rsa
+key = rsa.generate_private_key(public_exponent=65537, key_size=2048)

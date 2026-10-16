@@ -1,4 +1,4 @@
-# qx-scanner-breakers  (Round 6)
+# qx-scanner-breakers  
 
 Adversarial repo. Goal: make the scanner give a WRONG answer, crash, hang, or be fooled.
 These go past "does it detect X" into resilience and trust: parser edge cases, misattribution,
